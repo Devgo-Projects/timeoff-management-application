@@ -8178,6 +8178,20 @@
         }
       ]
     },
+    "CV": {
+      "name": "Cabo Verde",
+      "bank_holidays": [
+        { "date": "2024-01-01", "name": "Ano Novo" },
+        { "date": "2024-01-13", "name": "Dia da Liberdade e da Democracia" },
+        { "date": "2024-01-20", "name": "Dia dos heróis nacionais" },
+        { "date": "2024-05-01", "name": "Dia do Trabalhador" },
+        { "date": "2024-06-01", "name": "Dia das crianças" },
+        { "date": "2024-07-05", "name": "Dia da Independência" },
+        { "date": "2024-08-15", "name": "Dia da Assunção" },
+        { "date": "2024-11-01", "name": "Dia de Todos os Santos" },
+        { "date": "2024-12-25", "name": "Natal" }
+      ]
+    },
     "CW": {
       "name": "Curaçao",
       "bank_holidays": [

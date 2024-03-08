@@ -5,5 +5,11 @@ services:
     build: .
     ports:
       - "3000:3000"
+    env_file:
+      - .env
     volumes:
       - ./config:/app/config
+      - sqlite-data:/app/db
+
+volumes:
+  sqlite-data:

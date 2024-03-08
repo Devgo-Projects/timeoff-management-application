@@ -1,48 +1,37 @@
 {
   "branding": {
-    "url": "http://app.timeoff.management",
-    "website": "http://timeoff.management"
+    "url": "https://timeoff.devgo.org",
+    "website": "https://devgo.ai"
   },
-  "crypto_secret": "!2~`HswpPPLa22+=±§sdq qwe,appp qwwokDF_",
+  "crypto_secret": "?Q0nplzJHC{>OLtk[a7$qYiF232u$R",
   "login": {
     "default": true,
     "google": false
   },
+  "db": {
+    "host": "172.17.0.2",
+    "dialect": "postgres",
+    "database": "timeoff_v2",
+    "username": "postgres",
+    "password": "postgres",
+    "logging": true
+  },
   "smtp": {
-    "host": "localhost",
-    "port": 25,
-    "from": "email@test.com",
+    "host": "smtp.office365.com",
+    "port": 587,
+    "from": "daniel.pires@devgo.org",
     "auth": {
-      "user": "user",
-      "pass": "pass"
+      "user": "daniel.pires@devgo.org",
+      "pass": "Casadejogos23"
     }
   },
   "sessions": {
-    "secret": "my dirty secret ;khjsdkjahsdajhasdam,nnsnad,",
-    "store": "sequelize",
-    "redis": {
-      "host": "localhost",
-      "port": 6379
-    }
-  },
-  "google": {
-    "analytics": {
-      "tracker": ""
-    },
-    "auth": {
-      "clientId": "123",
-      "clientSecret": "123",
-      "domains": ["mydomain.com"]
-    }
-  },
-  "slack": {
-    "token": "Get your Web API token from you Slack admin page.",
-    "icon_url": "The image can be hosted anywhere, but I would recoment to upload an icon to your Slack and use it's url.",
-    "bot_name": "The display name for the messages being sent."
+    "secret": "?Q0nplzJHC{>OLtk[a7$qYiF232u$R",
+    "store": "sequelize"
   },
   "options": {
     "registration": true
   },
   "locale_code_for_sorting": "en",
-  "force_to_explicitly_select_type_when_requesting_new_leave": false
+  "force_to_explicitly_select_type_when_requesting_new_leave": true
 }

@@ -41,9 +41,6 @@ RUN npm install -y
 # Copy the application into the container.
 COPY . /app
 
-# Add user so it doesn't run as root
-RUN adduser --system app --home /app
-USER app
 
 EXPOSE 3000
 
