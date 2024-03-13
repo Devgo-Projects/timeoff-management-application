@@ -8,8 +8,9 @@ services:
     env_file:
       - .env
     volumes:
-      - ./config:/app/config
+      - ./db.production.sqlite:/app/db.production.sqlite
       - sqlite-data:/app/db
+      - ./config:/app/config
 
 volumes:
   sqlite-data:
